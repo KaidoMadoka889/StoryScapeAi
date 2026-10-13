@@ -1,0 +1,34 @@
+# Node / Next build artifacts
+/node_modules
+/.next
+/.turbo
+/dist
+
+# Local env files
+.env
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma local DB
+prisma/dev.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.history
